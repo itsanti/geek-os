@@ -1,0 +1,22 @@
+RSS - Resident Set Size - сколько физической памяти использует процесс (без swap и
+shared lib). Включает стек и heap.
+
+VSZ - Virtual Set Size - сколько виртуальной памяти использует процесс - RSS+swap+shared
+
+%MEM - RSS процесса к общему объему памяти в процентах
+
+видим, что gnome-terminal в данной выборке процессов самый прожорливый по памяти
+
+Вывод команды ps.aux
+
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+itsanti   1788  0.0  0.3  34684  3652 ?        Sl   Aug28   0:00 /usr/lib/deja-dup/deja-dup/deja-dup-monitor
+lp        2003  0.0  0.1   6228  1380 ?        S    Aug28   0:00 /usr/lib/cups/notifier/dbus dbus://
+root      2107  0.0  0.0      0     0 ?        S    Aug28   0:03 [kworker/0:2]
+itsanti   2136  0.0  1.5  91532 15816 ?        Sl   Aug28   0:01 gnome-terminal
+itsanti   2145  0.0  0.0   2404   724 ?        S    Aug28   0:00 gnome-pty-helper
+itsanti   2146  0.0  0.4   8960  4164 pts/1    Ss   Aug28   0:00 bash
+root      2247  0.0  0.0      0     0 ?        S    Aug28   0:01 [kworker/0:0]
+root      2272  0.0  0.0      0     0 ?        S    Aug28   0:00 [flush-8:0]
+itsanti   2568  0.0  0.1   6168  1176 pts/1    R+   00:13   0:00 ps aux
+itsanti   2569  0.0  0.0   5908   584 pts/1    S+   00:13   0:00 tail

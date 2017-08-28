@@ -1,0 +1,49 @@
+По параметрам SwapTotal, SwapFree и SwapCached можно сделать вывод,
+что swap не используется и весь свободен.
+
+MemTotal:        1025180 kB
+MemFree:          144532 kB
+Buffers:          122564 kB
+Cached:           450112 kB
+SwapCached:            0 kB - память, которая была в swap файле однажды
+Active:           480540 kB
+Inactive:         329688 kB
+Active(anon):     238144 kB
+Inactive(anon):     3684 kB
+Active(file):     242396 kB
+Inactive(file):   326004 kB
+Unevictable:          16 kB
+Mlocked:              16 kB
+HighTotal:        135112 kB
+HighFree:           1776 kB
+LowTotal:         890068 kB
+LowFree:          142756 kB
+SwapTotal:        783356 kB - доступный объем swap
+SwapFree:         783356 kB - неиспользуемый объем swap
+Dirty:                20 kB
+Writeback:             0 kB
+AnonPages:        237584 kB
+Mapped:           113472 kB
+Shmem:              4280 kB
+Slab:              53480 kB
+SReclaimable:      42748 kB
+SUnreclaim:        10732 kB
+KernelStack:        2488 kB
+PageTables:         6372 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     1295944 kB
+Committed_AS:    1958588 kB
+VmallocTotal:     122880 kB
+VmallocUsed:        3236 kB
+VmallocChunk:     118068 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:       26616 kB
+DirectMap2M:      886784 kB

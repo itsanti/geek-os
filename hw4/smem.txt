@@ -1,0 +1,11 @@
+  PID User     Command                         Swap      USS      PSS      RSS 
+ 1314 itsanti  /usr/lib/gnome-settings-dae    0.00%    0.63%    0.72%    1.73% 
+ 1713 itsanti  /usr/bin/python /usr/lib/un    0.00%    0.69%    0.78%    1.44% 
+ 1523 itsanti  /usr/lib/unity/unity-panel-    0.00%    0.73%    0.79%    1.71% 
+ 1444 itsanti  unity-2d-panel                 0.00%    0.61%    1.05%    2.38% 
+ 1463 itsanti  nautilus -n                    0.00%    1.37%    1.57%    2.85% 
+  852 mongodb  /usr/bin/mongod --config /e    0.00%    2.86%    2.87%    2.99% 
+ 5198 itsanti  /usr/bin/python /usr/share/    0.00%    3.28%    3.38%    3.97% 
+ 1445 itsanti  unity-2d-shell                 0.00%    3.08%    3.71%    5.28% 
+ 1767 itsanti  /usr/bin/python /usr/bin/up    0.00%    4.17%    4.36%    5.71% 
+ 1066 root     /usr/bin/X :0 -auth /var/ru    0.00%    5.46%    5.64%    5.98% 
